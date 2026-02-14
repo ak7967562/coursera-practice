@@ -1,22 +1,23 @@
-Personal Profile Webpage
+🍋 Little Lemon Menu Webpage
 
-This project was created as part of a Coursera lab exercise to practice building and styling a webpage using HTML and CSS.
+This project is a simple restaurant menu webpage created using HTML and CSS.
+It was developed as part of frontend practice to understand layout structure, selectors, and styling techniques.
 
 📌 Project Overview
 
 The webpage includes:
 
-A main heading displaying the name A. Kumar
+Restaurant logo image (logo.png)
 
-A personal photo (photo.jpg)
+Main heading: Our Menu
 
-An unordered list of favorite music artists
+Menu items with descriptions
 
-An ordered list of favorite films
+Highlighted "NEW" tag using CSS child selector
 
-A hyperlink redirecting to Meta’s official website
+Footer copyright section
 
-Basic styling using an external CSS file (styles.css)
+Center-aligned layout styling
 
 🛠 Technologies Used
 
@@ -25,58 +26,73 @@ HTML5
 CSS3
 
 📂 Project Structure
-meta/
+little-lemon/
 │
 ├── index.html
 ├── styles.css
-├── photo.jpg
-├──
+├── logo.png
 └── README.md
 🎯 Features Implemented
-✔ HTML Features
+✔ HTML Concepts
 
-Proper document structure
+Structured HTML document
 
-Linked external stylesheet
+Image element with ID selector
 
-Image element with ID selector (id="photo")
+Div containers for layout
 
-Unordered and ordered lists
+Heading hierarchy (h1, h2)
 
-External hyperlink with target="_blank"
+Span element inside heading
 
-✔ CSS Styling
+Paragraph descriptions
 
-Blue border applied to the image
+✔ CSS Concepts
 
-Blue color applied to main heading (h1)
+Background color styling
 
-Grey color applied to all subheadings (h2)
+Element selectors (h1, h2)
 
-Margin applied to divider elements
+Class selector (.center-text)
 
-🚀 How to Run the Project
+ID selector (#logo, #copyright)
+
+Child selector (h2 > span)
+
+Center alignment using margin auto
+
+Font size adjustments
+
+Padding usage
+
+🎨 Styling Highlights
+
+Logo centered using display: block and auto margins
+
+Accent color for “NEW” label
+
+Consistent restaurant theme color (#721817)
+
+Clean centered layout
+
+🚀 How to Run
 
 Download or clone the repository.
 
-Open the index.html file in any web browser.
+Ensure index.html, styles.css, and logo.png are in the same folder.
 
-Ensure photo.jpg and styles.css are in the same folder.
+Open index.html in a browser.
 
 📚 Learning Outcome
 
-Through this project, the following concepts were practiced:
+This project demonstrates understanding of:
 
-Creating a basic HTML document structure
+Basic webpage structure
 
-Linking CSS to HTML
+CSS selectors and specificity
 
-Using lists and hyperlinks
+Layout alignment
 
-Applying CSS selectors and styling rules
+Styling text and images
 
-Understanding the box model and spacing
-
-👤 Author
-
-A. Kumar
+Working with external stylesheets
